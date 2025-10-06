@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    min-height:100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    gap: 1rem;
+    padding: 0 1rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: black;
+    z-index: 1000;
+}
+
+.logo{
+    height: 100%;
+    width: auto;
+}
+
+header div{
+    flex: 2;
+    
+    height: 25%;
+}
+
+.logoDiv{
+    flex: 2;
+    height: 100%;
+
+}
+
+.navDiv{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.navDiv div{
+    display: flex;
+    height: 50%;
+    align-items: end;
+    justify-content: center;
+   
+    
+}
+
+.signUpLink{
+    color: #7e43db;
+}
+
+.navDiv a{
+    color:#c4c4c5 ;
+    font-family: Rubik;
+    text-decoration: none;
+    padding: 0 1rem;
+    font-size: 1.5rem
+}
+
+
+
+.authLinks{
+    display: flex;
+    
+}
+
+.heroDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:black;
+    height: 60vh;
+}
+
+.heroDiv h1{
+    background: linear-gradient(180deg, #9428a5 1.84%, #7e43db 80.67% );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5rem;
+    margin: 0;
+    text-align: center;
+    font-family: Barlow;
+}
+
+.subText{
+    display: flex;
+    justify-content: center;
+    color: grey;
+    font-size: 2rem;
+    font-family: Rubik;
+}
+
+
+.heroDiv div{
+    display: flex;
+    justify-content: center;
+}
+
+.btn1{
+    padding: 0.5rem 1rem;
+    color: #9428a5;
+    font-family: Barlow;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border: #9428a5 2px solid;
+    border-radius: 12px;
+    background-color: transparent;
+}
+
+.featuresDiv{
+    display: flex;
+    height: 40rem;
+    background: black;
+    color:#9428a5;
+    
+}
+
+.featuresDiv img{
+    height: 100%;
+    width: auto;
+
+}
+
+.featuresDiv h1{
+    font-size: 9rem;
+    font-family: Barlow;
+}
+
+.featuresDiv div{
+    flex: 1;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    padding-left: 3rem;
+    align-items: center;
+}
+
+.offerSection{
+    border: #7e43db 2px solid;
+}
+
+.offers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4rem;
+    padding-top: 20px;
+    background: black;
+    height: 20rem;
+}
+
+.library, .security, .community{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.library h3, .security h3, .community h3{
+    font-family: Barlow;
+    font-size: 34px;
+    color: #9428a5;
+    margin: 0;
+}
+
+.library p, .security p, .community p{
+    font-family: Barlow;
+    text-align: left;
+    text-wrap: pretty;
+    font-size: 24px;
+    color: gray;
+    margin: 0;
+}
+
+
+
+
+
+.footer{
+    display: flex;
+    background: black;
+    color:rgb(206, 204, 204);
+    border: #7e43db 2px solid;
+    padding: 5rem 2rem;
+}
+
+.footer i{
+    color: #7e43db;
+}
+
+.footer a{
+    color: gray;
+    text-decoration: underline;
+}
+
+.footer-cont{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-cont div{
+    flex: 1;
+}
+
+.footer-cont h3{
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+.buttom-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttom-logo a{
+    font-family: logo;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.icons{
+    display: flex;
+    gap: 1rem;
+}
+
+.ham{
+    display: flex;
+    padding: 0 0 0 1rem;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttom-logo img{
+    height: 100px;
+    width: auto;
+}
+

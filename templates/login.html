@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Log In</title>
+    <link rel="stylesheet" href="../styles/logIn.css">
+</head>
+<body>
+    <canvas></canvas>
+
+    <div class="card" id="cardId">
+      <div class="tickmarkCont" style="border-radius:200px; height:200px; width:200px; margin:0 auto;">
+        <i class="checkmark">✓</i>
+      </div>
+        <h1>Success</h1> 
+        <p>Account created Successfully</p>
+        <button class="fieldBtn" id="log">Log In</button>
+    </div>
+
+    <div class="logInContainer" id="logInContainerId">
+        <div class="logInBox">
+            <h2>Log In</h2>
+            <form action="#" method="post" class="logInForm" >
+                <br>
+
+                <input class="field" type="text" name="username" placeholder="Username" required>
+                <br>
+                <br>
+                <input class="field" type="password" name="password" placeholder="Password" required>
+                <br>
+                <button type="submit">Log In</button>
+            </form>
+            <p>Or create an  <a href="/signUp">Account here</a></p>
+        </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../scripts/logInScript.js"></script>
+</body>
+</html>
