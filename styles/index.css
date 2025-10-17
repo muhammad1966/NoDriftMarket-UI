@@ -257,3 +257,18 @@ header div{
     width: auto;
 }
 
+.menuIconDiv{
+    display: none;
+    justify-content: end;
+    padding-right: 1rem;
+    align-items: center;
+    height: 100%;
+    flex: 0.3;
+}
+
+.menuIconDiv i{
+    font-size: 2rem;
+    width: auto;
+    cursor: pointer;
+    color: #9428a5;
+}
