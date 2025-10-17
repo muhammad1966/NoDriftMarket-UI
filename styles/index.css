@@ -63,7 +63,7 @@ header div{
     color: #7e43db;
 }
 
-.navDiv a{
+.navDiv a, .navDivMob a{
     color:#c4c4c5 ;
     font-family: Rubik;
     text-decoration: none;
@@ -280,6 +280,43 @@ header div{
     cursor: pointer;
     color: #9428a5;
 }
+
+.navDivMob{
+    display: none;
+    height: 15rem;
+    width: 12rem;
+    padding: 1rem 0;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 4rem;
+    right: 0;
+    background: grey;
+    border: #7e43db 2px solid;
+    border-radius: 3px;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navDivMob div{
+    height: auto;
+    justify-content: center;
+    max-height: 4rem;
+    align-items: center;
+}
+
+.authLinksMob{
+    display: flex;
+    flex-direction: column;
+    height: 8rem;
+    align-items: center;
+    gap: 1rem;}
+
+.authLinksMob div{
+    flex: 1;
+}
+
+
 
 @media screen and (max-width: 1100px) {
     .navDiv{
