@@ -332,3 +332,41 @@ header div{
         justify-content: space-between;
     }
 }
+
+@media screen and (max-width: 800px) {
+    .heroDiv h1{
+        font-size: 3rem;
+    }
+
+    .subText{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    
+}
+
+@media screen and (max-width: 600px){
+    .heroDiv h1{
+        font-size: 2rem;
+    }
+
+    .featuresDiv{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .featuresDiv img{
+        height: auto;
+        width: 80%;
+       
+    }
+
+    .offers{
+        flex-direction: column;
+        height: auto;
+        gap: 2rem;
+    }
+
+    
+}
