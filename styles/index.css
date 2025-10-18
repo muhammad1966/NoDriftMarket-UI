@@ -333,17 +333,67 @@ header div{
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1050px) {
     .heroDiv h1{
-        font-size: 3rem;
+        font-size: 7rem;
+        
     }
 
     .subText{
-        font-size: 1.5rem;
+        font-size: 3rem;
         text-align: center;
     }
 
+    .btn1{
+            padding: 0.5rem 1rem;
+
+    }
+
+    .offers{
+        padding: 4rem 0;
+    }
+
+    .featuresDiv img{
+        height: 80%;
+        max-width: 100%;
+    }
+
+    .featuresDiv h1{
+        font-size: 7rem;
+    }
+
+    .featuresDiv{
+        height: 40rem;
+        
+        gap: 2rem;
+    }
+
     
+}
+
+@media screen and (max-width: 800px){
+    .heroDiv h1{
+        font-size: 5rem;
+    }
+
+    .subText{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .featuresDiv h1{
+        font-size: 6rem;
+    }
+
+    .featuresDiv img{
+        height: 70%;
+        width: auto;
+    }
+
+    .featuresDiv{
+        height: 35rem;
+        
+    }
 }
 
 @media screen and (max-width: 600px){
