@@ -354,18 +354,45 @@ header div{
     .featuresDiv{
         flex-direction: column;
         height: auto;
+        
+    }
+
+    .featuresDiv div{
+        padding-left: 0;
+        padding-top: 2rem;
+        align-items: center;
+    }
+
+    .featuresDiv h1{
+        font-size: 5rem;
+        margin-left: 1rem;
     }
 
     .featuresDiv img{
         height: auto;
-        width: 80%;
+        width: 90%;
        
+    }
+
+    .gamePadImg{
+        display: flex;
+        align-items: center;
+        padding-left: 0;
     }
 
     .offers{
         flex-direction: column;
         height: auto;
         gap: 2rem;
+    }
+
+    .footer-cont{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .icons{
+        justify-content: center;
     }
 
     
