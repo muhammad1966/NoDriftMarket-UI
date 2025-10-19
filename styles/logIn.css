@@ -147,3 +147,23 @@ i {
     justify-content: center;
     background: rgb(221, 220, 220);
 }
+
+@media screen and  (max-width: 450px) {
+    
+    body{
+    position: relative;
+    }
+
+    .logInContainer{
+    position: absolute;
+    top: 90%;
+    display: none;
+    align-items: center;
+    left: 25%;
+    right: 25%;
+    z-index: 10;
+    justify-content: center;
+    }
+
+    
+}
