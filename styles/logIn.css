@@ -176,6 +176,26 @@ i {
         color: white;
     }
 
+    .card {
+        height: 25rem;
+        width: 20rem;
+        padding: 0 1rem 2rem 1rem;
+        border: #7e43db 1px solid;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 3px;
+        color: white;
+        position: absolute;
+        top: 20%;
+        left: 38%;;
+    }
+
     .field{
         height: 2.5rem;
         border-radius: 3px;
