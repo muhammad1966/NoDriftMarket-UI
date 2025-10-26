@@ -1,0 +1,36 @@
+.searchDiv{
+    display: flex;
+    flex: 2;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.nav{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.searchButton, .search{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #555;
+}
+
+.search{
+    width: 100%;
+    border:#7e43db solid 1px;
+    height: 2rem;
+    border-right: none;
+    border-radius: 3px 0 0 3px;
+}
+
+.searchButton{
+   
+    border:#7e43db solid 1px;
+    height: 2.2rem;
+    border-left: none;
+    border-radius: 0 3px 3px 0;
+}
