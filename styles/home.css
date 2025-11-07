@@ -8,10 +8,30 @@
 .heroDivHome{
     display: flex;
     border-top: solid 1px #7e43db;
-    flex-direction: column;
     justify-content: center;
     background-color:black;
     height: 100vh;
+    padding-top: 1rem;
+}
+
+.heroDivHome div{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 1rem;
+}
+
+.feedDiv{
+    border-left: solid 1px #7e43db;
+    border-right: solid 1px #7e43db;
+    flex: 2;
+}
+
+.additionalsDiv, .sidebarDiv{
+    flex: 1;
 }
 
 .nav{
