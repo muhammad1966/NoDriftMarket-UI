@@ -5,6 +5,15 @@
     margin-right: 20px;
 }
 
+.heroDivHome{
+    display: flex;
+    border-top: solid 1px #7e43db;
+    flex-direction: column;
+    justify-content: center;
+    background-color:black;
+    height: 100vh;
+}
+
 .nav{
     display: flex;
     flex: 1;
