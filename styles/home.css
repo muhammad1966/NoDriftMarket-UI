@@ -1,3 +1,8 @@
+html, body, main{
+    height: 100%;
+    margin: 0;
+}
+
 .searchDiv{
     display: flex;
     flex: 2;
@@ -17,30 +22,39 @@
 .heroDivHome div{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     color: white;
     gap: 1rem;
 }
 
 .feedDiv{
+    justify-content: start;
     border-left: solid 1px #7e43db;
     border-right: solid 1px #7e43db;
+    justify-content: baseline;
     flex: 2;
-    overflow-y:scroll;
+    overflow:scroll;
     scrollbar-width: none;
     flex-direction: column;
+    height: 100vh;
     
 }
 
-.post{
-    display: flex;
-    flex-direction: column;
-    border-top: solid 1px #7e43db;
-    border-bottom: solid 1px #7e43db;
-    min-height: 70vh;
-    width: 100%;
-    
+.postHidden {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  border-top: solid 1px #7e43db;
+  border-bottom: solid 1px #7e43db;
+  min-height: 70vh;
+  width: 100%;
+}
+
+.postHidden.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .additionalsDiv, .sidebarDiv{
