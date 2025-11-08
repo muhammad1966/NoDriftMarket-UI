@@ -28,6 +28,8 @@
     border-left: solid 1px #7e43db;
     border-right: solid 1px #7e43db;
     flex: 2;
+    overflow: scroll;
+    scrollbar-width: none;
 }
 
 .additionalsDiv, .sidebarDiv{
