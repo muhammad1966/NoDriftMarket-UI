@@ -32,6 +32,17 @@
     scrollbar-width: none;
 }
 
+.post{
+    display: flex;
+    flex-direction: column;
+    border-top: solid 1px #7e43db;
+    border-bottom: solid 1px #7e43db;
+    height: 70vh;
+    width: 100%;
+    margin-bottom: 1rem;
+    
+}
+
 .additionalsDiv, .sidebarDiv{
     flex: 1;
 }
