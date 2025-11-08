@@ -11,12 +11,11 @@
     justify-content: center;
     background-color:black;
     height: 100vh;
-    padding-top: 1rem;
+    
 }
 
 .heroDivHome div{
     display: flex;
-    
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -28,8 +27,10 @@
     border-left: solid 1px #7e43db;
     border-right: solid 1px #7e43db;
     flex: 2;
-    overflow: scroll;
+    overflow-y:scroll;
     scrollbar-width: none;
+    flex-direction: column;
+    
 }
 
 .post{
@@ -37,9 +38,8 @@
     flex-direction: column;
     border-top: solid 1px #7e43db;
     border-bottom: solid 1px #7e43db;
-    height: 70vh;
+    min-height: 70vh;
     width: 100%;
-    margin-bottom: 1rem;
     
 }
 
