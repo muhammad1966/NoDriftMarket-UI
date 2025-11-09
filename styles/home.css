@@ -80,24 +80,23 @@ html, body, main{
 
 .handle{
     display: flex;
-    background: red;
-    gap: 0;
     flex-direction: column;
     color: white;
+    line-height: 5px;
     flex: 2;
 }
 
-.handle p{
-    margin: 0;
-    margin-top: 10px;
-    margin-left: 0;
+.Name{
+    margin: 0 0 0 0;
+    margin-top: 20px;
     font-family: Rubik, sans-serif;
 }
 
 .atHandle{
+    margin: 0 0 0 0;
+    font-size: 1rem;
     color: grey;
     font-weight: normal;
-    margin-top: 0;
 }
 
 .handlePic{
