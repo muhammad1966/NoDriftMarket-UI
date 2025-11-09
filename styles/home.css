@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 html, body, main{
     height: 100%;
     margin: 0;
@@ -21,16 +27,14 @@ html, body, main{
 
 .heroDivHome div{
     display: flex;
-    flex-direction: column;
     color: white;
     gap: 1rem;
 }
 
 .feedDiv{
-    justify-content: start;
+    display: flex;
     border-left: solid 1px #7e43db;
     border-right: solid 1px #7e43db;
-    justify-content: baseline;
     flex: 2;
     overflow:scroll;
     scrollbar-width: none;
@@ -58,7 +62,7 @@ html, body, main{
 
 .userProfile{
     display: flex;
-    min-width: 100%;
+    width: 100%;
     flex-direction: row;
     padding: 10px;
     font-weight: bold;
@@ -70,15 +74,35 @@ html, body, main{
     height: 60px;
     border-radius: 50%;
     overflow: hidden;
-    margin-right: 10px;
     color: white;
-    flex: 1;
 }
+
 
 .handle{
     display: flex;
+    background: red;
+    gap: 0;
+    flex-direction: column;
     color: white;
-    flex: 1;
+    flex: 2;
+}
+
+.handle p{
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 0;
+    font-family: Rubik, sans-serif;
+}
+
+.atHandle{
+    color: grey;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.handlePic{
+    display: flex;
+    flex: 0.002;
 }
 
 .additionalsDiv, .sidebarDiv{
