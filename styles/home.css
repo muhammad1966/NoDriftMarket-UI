@@ -57,6 +57,24 @@ html, body, main{
   transform: translateY(0);
 }
 
+.userProfile{
+    display: flex;
+    align-items: center;
+    background: red;
+    justify-content: start;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.profilePic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
 .additionalsDiv, .sidebarDiv{
     flex: 1;
 }
