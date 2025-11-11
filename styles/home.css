@@ -104,6 +104,18 @@ html, body, main{
     flex: 0.002;
 }
 
+.postText{
+    min-height: 100px;
+    color: white;
+    background: red;
+}
+
+.postText p{
+    margin: 10px;
+    font-size: 1.2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 .additionalsDiv, .sidebarDiv{
     flex: 1;
 }
