@@ -27,7 +27,6 @@ html, body, main{
 
 .heroDivHome div{
     display: flex;
-    color: white;
     gap: 1rem;
 }
 
@@ -66,7 +65,6 @@ html, body, main{
     flex-direction: row;
     padding: 10px;
     font-weight: bold;
-    font-size: 18px;
 }
 
 .profilePic{
@@ -74,7 +72,6 @@ html, body, main{
     height: 60px;
     border-radius: 50%;
     overflow: hidden;
-    color: white;
 }
 
 
@@ -107,13 +104,11 @@ html, body, main{
 .postText{
     min-height: 100px;
     color: white;
-    background: red;
 }
 
-.postText p{
-    margin: 10px;
-    font-size: 1.2rem;
-    font-family: 'Roboto Condensed', sans-serif;
+.postText.show p{
+    font-size: 25px;
+    font-family: Rubik;
 }
 
 .additionalsDiv, .sidebarDiv{
