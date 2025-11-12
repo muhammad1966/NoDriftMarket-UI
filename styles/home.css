@@ -101,14 +101,35 @@ html, body, main{
     flex: 0.002;
 }
 
+.date{
+    color: grey;
+    font-family: Rubik;
+    font-size: 14px;
+    margin-top: 20px;
+    flex: 0.4;
+}
+
 .postText{
-    min-height: 100px;
+    min-height: 70px;
     color: white;
+    padding: 10px;
+    font-family: Rubik;
 }
 
 .textHidden{
-    font-size: 25px;
+    font-size: 18px;
     font-family: Rubik;
+}
+
+.postPicture{
+    width: 100%;
+    height: 18rem;
+}
+
+.postPicture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .additionalsDiv, .sidebarDiv{
