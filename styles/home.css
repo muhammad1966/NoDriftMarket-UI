@@ -106,7 +106,7 @@ html, body, main{
     color: white;
 }
 
-.postText.show p{
+.textHidden{
     font-size: 25px;
     font-family: Rubik;
 }

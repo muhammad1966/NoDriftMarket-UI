@@ -1,6 +1,5 @@
 
 const hiddenElements = document.querySelectorAll(".postHidden");
-const hiddenTexts = document.querySelectorAll(".textHidden");
 const root = document.querySelector(".feedDiv");
 
 const observer = new IntersectionObserver(enteries => {
@@ -11,4 +10,3 @@ const observer = new IntersectionObserver(enteries => {
 , {root: root });
 
 hiddenElements.forEach(el => observer.observe(el));
-hiddenTexts.forEach(el => observer.observe(el));
